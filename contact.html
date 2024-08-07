@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a class="link-title" href="/">minimalistic website</a>
+        </header>
+        <nav class="menu">
+            <a href="/">home</a> &nbsp; &nbsp; &nbsp;
+            <a href="about.html"> About us</a> &nbsp; &nbsp; &nbsp;
+            <a href="contact.html"> contact</a>
+        </nav>
+        <aside>
+            <h1>Side Bar</h1>
+        </aside>
+        <article class="main">
+            <h1 class="page-heading">contact</h1>
+            <div id="form">
+                <form action="process.php">
+                    <p>
+                    <label for="name">name:
+                            <input type="text" name="name">
+                    </label>
+                    </p>
+                    
+                    <p>
+                        <label for="email">email:
+                            <input type="email" name="email">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="subject">subject:
+                            <input type="text" name="subject">
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="message">message:
+                            <textarea  id="message" name="message" id="" cols="30" ></textarea>
+                        </label>
+                    </p>
+                    <p>
+                        <input type="submit" type="submit" value="send message">
+                    </p>  
+                </form>
+            </div>
+        </article>
+      
+        <footer>
+            &copy; 2030 minimal website &nbsp; <span class="separator"> </span>
+            designed by TechQueen Hub <a href="">email</a>
+        </footer>
+    </div>
+</body>
+</html>
